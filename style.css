@@ -211,6 +211,175 @@ main{
     color: #ffffff7c;
 }
 
+@media (max-width: 1000px){
 
+    .logo{
+        margin: 10px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-area{
+        margin-top: 10px;
+        margin-left: 10px;
+        text-transform: lowercase;
+    }
+
+    .info{
+        margin-left: 10px;
+    }
+
+    .botones{
+        margin-left: 10px;
+    }
+
+    .boton-encriptar{
+        height: 50px;
+        width: 250px;
+    }
+
+    .boton-desencriptar {
+        height: 50px;
+        width: 250px;
+    }
+
+    .Msj-Encriptado{
+        justify-content: flex-start;
+    }
+
+    .Msj-Encriptado .contenido{
+        height: 150px;
+        margin-left: 80px;
+    }
+
+    .Msj-Encriptado .mensaje{
+        width: 550px;
+        height: 200px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .Msj-Encriptado .contenido .img{
+        display: none;
+    }
+
+    .Msj-Encriptado .contenido h2{
+        padding-left: 20px;
+    }
+
+    .Msj-Encriptado .contenido .copiar{
+        width: 300px;
+        margin-left: 40px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        font-size: 2vw;
+        height: 100vh;
+    }
+    
+    .logo{
+        width: 50px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .text-area{
+        margin-top: 0;
+        margin-left: 0;
+        width: 750px;
+        height: 400px;
+        font-size: 16px;
+        text-transform: lowercase;
+    }
+
+    .info{
+        margin-left: 0;
+    }
+
+    .alerta{
+        width: 15px;
+        height: 15px;
+    }
+
+    .informacion{
+        font-size: 10px;
+    }
+
+    .botones{
+        display: flex;
+        justify-content:center;
+        margin-left: 5px;
+    }
+
+    .boton-encriptar{
+        font-size: 16px;
+        height: 30px;
+        width: 250px;
+    }
+
+    .boton-desencriptar {
+        font-size: 16px;
+        height: 30px;
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .Msj-Encriptado{
+        justify-content: flex-start;
+    }
+
+    .Msj-Encriptado .contenido{
+        align-content: center;
+        height: 350px;
+        margin-left: 220px;
+    }
+
+    .Msj-Encriptado .mensaje{
+        font-size: 16px;
+        width: 750px;
+        height: 420px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .Msj-Encriptado .contenido .img{
+        display: none;
+    }
+
+    .Msj-Encriptado .contenido h2{
+        margin-top: 160px;
+        font-size: 16px;
+        padding-left: 25px;
+    }
+
+    .Msj-Encriptado .contenido .copiar{
+        font-size: 16px;
+        width: 250px;
+        margin-left: 40px;
+        height: 30px;
+    }
+
+    .github{
+        width: 20px;
+        height: 20px;
+    }
+
+    .linkedin{
+        width: 20px;
+        height: 20px;
+    }
+}
     
 
